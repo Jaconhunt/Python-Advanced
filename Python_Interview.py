@@ -5,4 +5,5 @@
 # @Site    : 
 # @File    : Python_100.py
 # @Software: PyCharm
-#°üº¬ÍøÂçÉÏµÄÃæÊÔÌâ
+
+# 1. Python è¿­ä»£å™¨ï¼Œç”Ÿæˆå™¨ï¼Œè£…é¥°å™¨
