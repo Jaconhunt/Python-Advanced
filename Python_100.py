@@ -36,3 +36,15 @@ def sqrt_num():
             print(i)
 
 sqrt_num()
+
+#101.台阶问题/斐波那契
+#一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法
+def swag_steps(n):
+    if n == 1:
+        return 1
+    if n == 2:
+        return 2
+    return (swag_steps(n-2) + swag_steps(n-1))
+
+swag_num = swag_steps(10)
+print("青蛙跳台阶有", swag_num,"种方法")
